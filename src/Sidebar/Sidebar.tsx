@@ -4,16 +4,16 @@ import './Sidebar.css';
 import { NavLink } from 'react-router-dom';
 
 const Sidebar = ({ genres }: Props)  => {
-  const bookGenres = genres.bookLists.map((list) => {
+  const bookGenres = genres.map((list) => {
     return (  
       <NavLink key={list.list_id} to={`/${list.list_name}`} style={{ textDecoration: 'none' }}>
-        <p className='genre-links'>{list.display_name}</p>
+        <p tabIndex="0" className='genre-links'>{list.display_name}</p>
       </NavLink>
     )
   });
   
   return (
-    <section className='genres-container'>
+    <section className='genres-container' tabIndex="0">
       {bookGenres}
     </section>
   )

@@ -12,7 +12,7 @@ const Dropdown = ({ genres }: Props) => {
   const generateDropdownOptions = () => {
     return genres.map(list => {
       return (
-        <option tabIndex="0" key={list.list_id} style={{ textDecoration: 'none' }} value={`/${list.list_name}`}>{list.display_name}</option>
+        <option key={list.list_id} style={{ textDecoration: 'none' }} value={`/${list.list_name}`}>{list.display_name}</option>
       )
     })
   }

@@ -32,11 +32,11 @@
 
 ### Application Wireframes
 
-![Curious Reader Wireframe](https://user-images.githubusercontent.com/95496577/181833601-0fab9089-edde-493d-a01a-3c8ebe30d9e9.png) 
+[Curious Reader Wireframe](https://user-images.githubusercontent.com/95496577/181833601-0fab9089-edde-493d-a01a-3c8ebe30d9e9.png) 
 
 ### Component Architecture
 
-![Curious Reader Component Wireframe](https://user-images.githubusercontent.com/95496577/181833596-9272083a-7b94-4cf4-871c-7c801fc6e87e.png) 
+[Curious Reader Component Wireframe](https://user-images.githubusercontent.com/95496577/181833596-9272083a-7b94-4cf4-871c-7c801fc6e87e.png) 
 
 ## Technology Stack
 
@@ -48,13 +48,13 @@
 - React Router
 - TypeScript
 
-## User Stories
+## Features
 
-- As a user I should see a homepage that previews the book genres with the top book from each category. 
+- A user can navigate to the homepage that previews the book genres with the top book from each category. 
 
-- As a user I should be able to select different book genres, which filters the books and book details displayed based on genre. 
+- A user can select different book genres, which filters the books and book details displayed based on genre. 
 
-- As a user I should be able to go back to the homepage where I can select a different genre of books to see. 
+- From a genre page, a user can go back to the homepage where I can select a different genre of books to see. 
 
 ## Context and Features
 

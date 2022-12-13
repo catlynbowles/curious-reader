@@ -10,55 +10,6 @@ import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import BookIcon from '../assets/book.png';
 import Dropdown from '../Dropdown/Dropdown';
 
-// class App extends Component<{}, IState> {
-//   state: IState = {
-//     bookLists: [],
-//     error: false
-//   };
-
-//   componentDidMount = () => {
-//     fetchBookData()
-//     .then((data) => { 
-//         this.setState({ bookLists: data.results.lists })
-//       })
-//     .catch((error) => {
-//       console.log(error)
-//       this.setState({error: true})
-//     })
-//   };
-  
-//   render = () => {
-//     return (
-//     <>
-//       {this.state.error ? <div><ErrorMessage /></div> :
-//         <>
-//           <nav>
-//             <NavLink to={'/'} style={{ textDecoration: 'none' }}>
-//               <article className='header-container'>
-//                 <h1 tabIndex="0">Curious Reader</h1>
-//                 <img tabIndex="0" src={BookIcon} className='book-icon'/>
-//               </article>
-//             </NavLink>
-//             <Sidebar genres={this.state} />
-//             <Dropdown genres={this.state}/>
-//           </nav>
-//         <Route exact path='/' render={() =>
-//           <TopBooks genres={this.state}/> 
-//           }/>
-      
-//         <Route exact path='/:list_name' render={({match}) => {
-//           return (
-//           <BookGenrePage listName={match.params.list_name} genres={this.state} error={this.state.error}/>
-//           )
-//           }}/>
-//         </>
-//         }
-//     </>
-//     )
-//   };
-// };
-// export default App;
-
 const App = () => {
   // state: IState = {
   //   bookLists: [],
@@ -71,7 +22,6 @@ const App = () => {
   useEffect(() => {
     fetchBookData()
     .then((data) => {
-      console.log(data)
       return setBookLists(data.results.lists)
     })
   .catch((err) => setError(true))
@@ -85,8 +35,8 @@ const App = () => {
           <nav>
             <NavLink to={'/'} style={{ textDecoration: 'none' }}>
               <article className='header-container'>
-                <h1 tabIndex="0">Curious Reader</h1>
-                <img tabIndex="0" src={BookIcon} className='book-icon'/>
+                <h1 >Curious Reader</h1>
+                <img  src={BookIcon} className='book-icon'/>
                 <Sidebar genres={bookLists} />
               </article>
             </NavLink>

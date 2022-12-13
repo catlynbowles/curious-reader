@@ -2,18 +2,15 @@
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Abstract](#abstract)
-- [Deployed Link](#deployed-link])
+- [Deployed Link](#deployed-link)
 - [Illustrations](#illustrations)
 - [Technologies Used](#technologies-used)
-- [Application & Component Wireframes](#application-and-component-wireframes)
-- [Context and Features](#context-and-features)
-- [User Stories](#user-stories)
-- [Lessons Learned](#lessons-learned)
+- [Application & Component Wireframes](#application-wireframes)
+- [Features](#features)
 - [Future Features](#future-features)
 - [Application Set-Up](#application-set-up)
-- [Contributor LinkedIns and GitHubs](#contributor-linkedin-and-github)
+- [Contributors](#contributors)
 - [Project Specs](#project-specs)
 
 ## Abstract
@@ -34,11 +31,9 @@
 
 [Curious Reader Wireframe](https://user-images.githubusercontent.com/95496577/181833601-0fab9089-edde-493d-a01a-3c8ebe30d9e9.png) 
 
-### Component Architecture
-
 [Curious Reader Component Wireframe](https://user-images.githubusercontent.com/95496577/181833596-9272083a-7b94-4cf4-871c-7c801fc6e87e.png) 
 
-## Technology Stack
+## Technologies Used
 
 - CSS
 - Cypress.io
@@ -84,19 +79,12 @@
 
 8. When finished with the application, type `Control + C` in the terminal to stop running the application. 
 
-## Contributor LinkedIn’s
+## Contributors
 
-- [Catlyn Bowles: LinkedIn](https://www.linkedin.com/in/catlyn-bowles/)      
-- [Megan Schuetz: LinkedIn](https://www.linkedin.com/in/megan-schuetz/)     
-- [Michael Harrison: LinkedIn](https://www.linkedin.com/in/michael-j-harrison57/)    
-- [Nickolai Orlov: LinkedIn](https://www.linkedin.com/in/nickolaio/)     
-
-## Contributor GitHubs’s
-
-- [Catlyn Bowles: GitHub](https://github.com/catlynbowles)       
-- [Megan Schuetz: GitHub](https://github.com/megschuetz)       
-- [Michael Harrison: GitHub](https://github.com/mikeharrison57)     
-- [Nickolai Orlov: GitHub](https://github.com/orlov-n)      
+- Catlyn Bowles [LinkedIn](https://www.linkedin.com/in/catlyn-bowles/) [GitHub](https://github.com/catlynbowles)    
+- Megan Schuetz [LinkedIn](https://www.linkedin.com/in/megan-schuetz/) [GitHub](https://github.com/megschuetz)
+- Michael Harrison [LinkedIn](https://www.linkedin.com/in/michael-j-harrison57/) [GitHub](https://github.com/mikeharrison57)
+- Nickolai Orlov [LinkedIn](https://www.linkedin.com/in/nickolaio/) [GitHub](https://github.com/orlov-n)      
 
 ## Project Specs
 
